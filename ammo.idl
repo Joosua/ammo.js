@@ -119,6 +119,7 @@ interface btManifoldPoint {
   [Const, Ref] btVector3 getPositionWorldOnA();
   [Const, Ref] btVector3 getPositionWorldOnB();
   [Const] double getDistance();
+  [Const] double getAppliedImpulse();
   [Value] attribute btVector3 m_localPointA;
   [Value] attribute btVector3 m_localPointB;
   [Value] attribute btVector3 m_positionWorldOnB;
